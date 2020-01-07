@@ -37,7 +37,7 @@ Service Account: Jenkins
 ```
 export KUBECONFIG=/root/openshift-config/auth/kubeconfig
 oc project cicd 
-oc create -f https://raw.githubusercontent.com/zufardhiyaulhaq/openshift-python-nginx-pipeline/master/openshift/pipelines/jenkins-pipeline.yaml 
+oc create -f https://raw.githubusercontent.com/yusufalafid/openshift-python-nginx-pipeline/master/openshift/pipelines/jenkins-pipeline.yaml
 ```
 
 ### 6 Run Buildconfig
