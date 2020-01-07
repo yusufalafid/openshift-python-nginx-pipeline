@@ -11,8 +11,6 @@ oc policy add-role-to-user edit system:serviceaccount:cicd:default -n stage
 ```
 
 ### 1 Open Jenkins
-`jenkins-cicd.apps.openshift.btech.io`
-
 ### 2 Manage > Configure System
 ### 3 Kubernetes Pod Template > Add Pod Template
 
@@ -32,8 +30,8 @@ Service Account: Jenkins
 ```
 
 ### 4 Apply & Save
-
 ### 5 Create buildconfig
+
 ```
 export KUBECONFIG=/root/openshift-config/auth/kubeconfig
 oc project cicd 
@@ -44,4 +42,3 @@ oc create -f https://raw.githubusercontent.com/yusufalafid/openshift-python-ngin
 `oc start-build python-nginx-pipeline`
 
 ### 7 View Pipeline in jenkins
-`jenkins-cicd.apps.openshift.btech.io`
