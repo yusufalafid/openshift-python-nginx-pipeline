@@ -6,7 +6,7 @@ tasks = [
     {
         'id': 1,
         'title': 'Openshift Jenkins Pipeline Python/Nginx Implementation',
-        'description': 'Find the implementation at https://github.com/ruddra/openshift-python-nginx'
+        'description': 'Find the implementation at here'
     },
     {
         'id': 2,
