@@ -12,6 +12,11 @@ tasks = [
         'id': 2,
         'title': 'Openshift Jenkins Pipeline Django Implementation',
         'description': 'Find the implementation at https://github.com/ruddra/openshift-django'
+    },
+    {
+        'id': 3,
+        'title': 'testing',
+        'description': 'test trigger'
     }
 ]
 
