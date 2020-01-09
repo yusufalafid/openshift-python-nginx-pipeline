@@ -16,7 +16,7 @@ tasks = [
     {
         'id': 3,
         'title': 'testing',
-        'description': 'test trigger'
+        'description': 'test trigger git'
     }
 ]
 
