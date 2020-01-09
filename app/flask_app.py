@@ -5,7 +5,7 @@ app = Flask(__name__)
 tasks = [
     {
         'id': 1,
-        'title': 'Openshift Jenkins Pipeline Python/Nginx Implementation',
+        'title': 'Openshift Jenkins Pipeline Python/Nginx',
         'description': 'Find the implementation at here'
     },
     {
